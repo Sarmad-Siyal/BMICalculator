@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/llMain"
+    android:orientation="vertical"
+    android:padding="11dp"
+
+
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Wait"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:id="@+id/edtWait"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/HeightFt"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:id="@+id/edtHeightFt"/>
+
+    <EditText
+        android:id="@+id/edtHeightInch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/HeightInch"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button"
+        android:layout_marginTop="11dp"
+        android:id="@+id/btmCalculate"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textColor="#1124A2"
+        android:textSize="22sp"
+        android:id="@+id/btmText"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"/>
+
+
+</LinearLayout>
